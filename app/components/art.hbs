@@ -1,0 +1,21 @@
+<article class="art">
+    <Art::Image 
+        src={{@art.image}}
+        alt="A picture of {{@art.title}}"
+    />
+    <div class="details">
+        <h3>{{@art.title}}</h3>
+        <div class="detail owner">
+            <span>Owner:</span> {{@art.owner}}
+        </div>
+        <div class="detail type">
+            <span>Type:</span> {{@art.type}}
+        </div>
+        <div class="detail date">
+            <span>Creation date:</span> {{@art.date}}
+        </div>
+        <div class="detail price">
+            <span>Price:</span> {{@art.price}}
+        </div>
+    </div>
+</article>

@@ -1,0 +1,13 @@
+<Jumbo>
+    <h2>Welcome to Blockchain Arts!</h2>
+    <p>We provide a reliable marketplace to buy and sell the finest digital arts</p>
+    <LinkTo @route="about" class="button">About Us</LinkTo>
+</Jumbo>
+
+<div class="arts">
+    <ul class="results">
+        {{#each @model as |art|}}
+        <li><Art @art={{art}} /></li>
+        {{/each}}
+    </ul>
+</div>

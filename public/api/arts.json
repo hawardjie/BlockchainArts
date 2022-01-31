@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "type": "digital",
+            "id": "apple-melon",
+            "attributes": {
+                "title": "Apple Melon",
+                "type": "Fruit",
+                "owner": "Samuel Brown",
+                "date": "Jan 29th, 2022",
+                "price": "12 WETH",
+                "image": "../assets/arts/apple-melon.jpg",
+                "description": "Digital art of apple-melon"
+            }
+        },
+        {
+            "type": "digital",
+            "id": "sweet-oranges",
+            "attributes": {
+                "title": "Sweet Oranges",
+                "type": "Fruit",
+                "owner": "Monica Smith",
+                "date": "Jan 29th, 2022",
+                "price": "15 WETH",
+                "image": "../assets/arts/oranges.jpg",
+                "description": "Digital art of oranges"
+            }
+        },
+        {
+            "type": "digital",
+            "id": "fruits",
+            "attributes": {
+                "title": "Three-kind Fruits",
+                "type": "Fruit",
+                "owner": "Mary Jackson",
+                "date": "Jan 29th, 2022",
+                "price": "22 WETH",
+                "image": "../assets/arts/fruits.jpg",
+                "description": "Digital art of fruits "
+            }
+        }
+    ]
+}
